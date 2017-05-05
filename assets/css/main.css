@@ -1,3 +1,39 @@
-body{
-  background-color: skyblue;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
+
+div.span{
+  overflow:auto;
+  float:left;
+  margin:2%;
+  color:#66757f;
+}
+
+.icono, .text{
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-right: 5px;
+  color:#66757f;
+}
+
+div.span:hover>.text{
+  color: skyblue;
+}
+
+div.skyblue{
+  background-color: skyblue;
+  height: 5px;
+  width:100%;
+  visibility: hidden;
+}
+
+div.skyblue:hover{
+  visibility: visible;
+}
+
+
+/*.icono:hover{
+  color:skyblue;
+}*/
